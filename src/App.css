@@ -1,0 +1,151 @@
+body {
+	/* background-color: #f9efd8; */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+	background-color: white;
+	padding: 30px 0 10px;
+	position: fixed;
+	display: block;
+	width: 100%;
+	box-shadow: 1px 5px 15px #cecece;
+	z-index: 999;
+}
+
+.headerimg {
+	margin: 0 auto;
+	display: block;
+}
+
+.container {
+	padding: 120px 0;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.navbar {
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #000;
+	margin: 0 15px;
+	padding-bottom: 5px;
+}
+
+.navbar a:hover {
+	border-bottom: 2px solid #e0a62c;
+  color: #e0a62c;
+}
+
+.homepage-msg {
+	text-align: center;
+	display: block;
+	margin: 100px;
+}
+
+.label {
+	background-color: #375d8c;
+	padding: 7px;
+	display: inline-block;
+	border-radius: 5px;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+.articles-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.articles-list li {
+	background-color: white;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 1px 5px 15px #cecece;
+	margin: 0 auto 15px;
+	display: block;
+}
+
+.articles-list li:hover {
+	transform: translate(0,-5px);
+}
+
+.articles-list li .title {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+	font-weight: 600;
+	display: inline;
+}
+
+.articles-list li .title:hover {
+	border-bottom: 2px solid;
+}
+
+.articles-list li .date {
+	font-size: 12px;
+	margin-top: 9px;
+	display: block;
+	/* font-style: italic; */
+	text-transform: uppercase;
+	color: #a6a4a1;
+}
+
+.articles-list li .authors {
+	margin-top: 10px;
+}
+.articles-list li .authors .author {
+	text-decoration: none;
+	color: white;
+	background-color: #a6a5a4;
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px; 
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+.articles-list li .authors .author:hover {
+	background-color: #87898c;
+}
+
+.loadmore button {
+	margin: 0 auto;
+	display: block;
+	outline: 0;
+	border: 0;
+	background-color: #dea531;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	letter-spacing: 1px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.loadmore button:hover {
+	background-color: #d19a2a;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
