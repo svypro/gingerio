@@ -8,11 +8,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ## GINGER.IO TEST APP
 
@@ -49,6 +45,7 @@ Did not have time to add test files, but I would have tested each components -
 ### Screenshots
 
 #### Articles Page
+<img src="/img/ss_scroll.gif" />
 <img src="/img/ss01.png" />
 
 #### Author's Page
