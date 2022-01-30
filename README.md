@@ -20,9 +20,9 @@ I've decided to use React as opposed to Python/Django or a JS framework since I 
 
 I used React Router to separate the pages in the requirements, but I couldn't really settle on how to create the author's list of articles page since the API from arXiv is difficult to navigate and I couldn't find a distinct way to query for ALL authors. 
 
-Instead I found a query to find articles of specific authors, so I opted to list the authors in the list of article pages that will link to its individual author's page, and query the articles there. It takes the param of author's name from the URI string to search for author's works. This isn't the best way since we're literally querying for their first and last name (i.e. "Peter Washington" - with the spaces), but I couldn't find the more reliable way to query the results in time. The 6 months worth of articles are handled by the load more pagination as it continues to query for articles ordered by descending and sorted by last updated date.
-
 The main articles page calls for the arXiv API to retrieve titles/summaries that include 'psychiatry', 'therapy', 'machine learning', and 'data science', parsed from XML to JSON. It has a 'Load More' button for pagination that will display the next 10 articles when clicked. The same works for individual author's articles. 
+
+I opted to list the authors in the list of article pages that will link to its individual author's page, and query the articles there. It takes the param of author's name from the URI string to search for author's works. This isn't the best way since we're literally querying for their first and last name (i.e. "Peter Washington" - with the spaces), but I couldn't find the more reliable way to query the results in time. The 6 months worth of articles are handled by the load more pagination as it continues to query for articles ordered by descending and sorted by last updated date.
 
 ### WHAT I WOULD'VE DONE IF I HAD MORE TIME:
 
