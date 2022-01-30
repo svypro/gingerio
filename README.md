@@ -4,7 +4,11 @@ Headspace/Ginger.io Test App by Sam Young
 
 ## Directions
 
-In the project directory, you can run:
+In the project directory (You will need Node version 14+), you can run:
+
+### `npm install`
+
+then:
 
 ### `npm start`
 
