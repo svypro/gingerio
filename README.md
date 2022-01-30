@@ -4,7 +4,11 @@ Headspace/Ginger.io Test App by Sam Young
 
 ## Directions
 
-In the project directory, you can run:
+In the project directory (You will need Node version 14+), you can run:
+
+### `npm install`
+
+then:
 
 ### `npm start`
 
@@ -35,12 +39,12 @@ Did not have time to add test files, but I would have tested each components -
 
 #### Test directory
 /components\
-&nbsp;&nbsp;&nbsp;article.js\
-&nbsp;&nbsp;&nbsp;***articles.test.js***\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> mock return API call, test for list of articles (class names, hyperlinks exists), mouse click on hyperlinks, and each author's name (getByText), mouse click on load more button\
-&nbsp;&nbsp;&nbsp;authors.js\
-&nbsp;&nbsp;&nbsp;***authors.test.js***\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-> mock return API call, test for author's name matching, labels and co-authors, hyperlink URI's match, mouse click on load more button
+&nbsp;&nbsp;&nbsp;`article.js`\
+&nbsp;&nbsp;&nbsp;`articles.test.js`\
+&nbsp;&nbsp;&nbsp;- mock return API call, test for list of articles (class names, hyperlinks exists), mouse click on hyperlinks, and each author's name (getByText), mouse click on load more button\
+&nbsp;&nbsp;&nbsp;`authors.js`\
+&nbsp;&nbsp;&nbsp;`authors.test.js`\
+&nbsp;&nbsp;&nbsp;- mock return API call, test for author's name matching, labels and co-authors, hyperlink URI's match, mouse click on load more button
 
 ### Screenshots
 
